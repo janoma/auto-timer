@@ -25,6 +25,11 @@ int main()
 
         for (int i = 0; i < 100000000; ++i)
         {
+            if (i == 50000000)
+            {
+                // Report the time passed halfway through the loop
+                timer2.report();
+            }
             int root = sqrt(i);
             root *= root;
         }
