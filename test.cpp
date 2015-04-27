@@ -33,5 +33,5 @@ int main()
             int root = sqrt(i);
             root *= root;
         }
-    } // << This destroyes timer2
+    } // << This destroys timer2
 } // Finally, timer0 is destroyed
